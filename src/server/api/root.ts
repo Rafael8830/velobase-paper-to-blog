@@ -16,6 +16,7 @@ import { repositoryRouter } from "@/server/api/routers/repository";
 import { githubRouter } from "@/server/api/routers/github";
 import { affiliateRouter } from "@/server/api/routers/affiliate";
 import { telegramRouter } from "@/server/telegram/router";
+import { paperToBlogRouter } from "@/modules/paper-to-blog/server/router";
 import { createCallerFactory, createTRPCRouter } from "@/server/api/trpc";
 
 /**
@@ -52,6 +53,9 @@ export const appRouter = createTRPCRouter({
 
   // Telegram module
   telegram: telegramRouter,
+
+  // PaperCast product module
+  paperToBlog: paperToBlogRouter,
 });
 
 export type AppRouter = typeof appRouter;

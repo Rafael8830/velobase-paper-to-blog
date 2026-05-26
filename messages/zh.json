@@ -123,10 +123,70 @@
   },
   "landing": {
     "hero": {
-      "titleLine1": "Build Your AI App",
-      "titleLine2": "In Record Time",
-      "subtitle": "A production-ready AI SaaS framework with auth, billing, payments, and AI chat built in.",
-      "subtitleAccent": "Focus on your core feature. We handle the rest."
+      "titleLine1": "PaperCast",
+      "titleLine2": "从论文到播报",
+      "subtitle": "粘贴论文链接，把密集研究内容转成结构化博客和可播报脚本。",
+      "subtitleAccent": "面向研究者、内容创作者和企业知识团队。"
+    }
+  },
+  "product": {
+    "paperToBlog": {
+      "eyebrow": "PaperCast 工作台",
+      "title": "把论文链接变成技术博客和语音讲述",
+      "subtitle": "输入 arXiv 或 DOI 链接，选择博客风格和播报音色，直接预览从论文到内容的完整链路。",
+      "form": {
+        "url": "论文链接",
+        "placeholder": "https://arxiv.org/abs/1706.03762",
+        "style": "博客风格",
+        "voice": "播报音色",
+        "rate": "语速"
+      },
+      "styles": {
+        "technical": "技术深度解读",
+        "application": "应用价值简报",
+        "tutorial": "教程式拆解"
+      },
+      "voices": {
+        "calm": "沉稳讲述",
+        "teacher": "课堂讲解",
+        "brief": "管理层简报"
+      },
+      "actions": {
+        "sample": "示例",
+        "generating": "正在生成预览",
+        "generate": "生成论文博客",
+        "copy": "复制博客",
+        "copied": "已复制",
+        "play": "播放播报",
+        "stop": "停止"
+      },
+      "workflow": {
+        "title": "转换流水线",
+        "empty": "待处理"
+      },
+      "empty": {
+        "paper": "论文元信息",
+        "summary": "核心要点",
+        "blog": "博客草稿",
+        "voice": "播报脚本",
+        "pending": "正在生成第一篇转换预览。",
+        "ready": "完整转换结果会显示在这里。"
+      },
+      "summary": {
+        "title": "AI 论文摘要",
+        "contributions": "核心贡献",
+        "methods": "方法论",
+        "applications": "应用想法"
+      },
+      "voice": {
+        "duration": "预计时长：{seconds} 秒"
+      },
+      "business": {
+        "title": "MVP 商业规则"
+      },
+      "errors": {
+        "preview": "论文转换预览失败。"
+      }
     }
   },
   "account": {

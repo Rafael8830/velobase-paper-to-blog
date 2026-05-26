@@ -123,10 +123,70 @@
   },
   "landing": {
     "hero": {
-      "titleLine1": "Build Your AI App",
-      "titleLine2": "In Record Time",
-      "subtitle": "A production-ready AI SaaS framework with auth, billing, payments, and AI chat built in.",
-      "subtitleAccent": "Focus on your core feature. We handle the rest."
+      "titleLine1": "PaperCast",
+      "titleLine2": "Research to narration",
+      "subtitle": "Paste a paper link and turn dense research into a structured blog with a voice-ready script.",
+      "subtitleAccent": "Built for researchers, creators, and enterprise knowledge teams."
+    }
+  },
+  "product": {
+    "paperToBlog": {
+      "eyebrow": "PaperCast Studio",
+      "title": "Turn paper links into blogs and narrated insight",
+      "subtitle": "Paste an arXiv or DOI link, choose an output style, and preview the complete paper-to-content workflow.",
+      "form": {
+        "url": "Paper link",
+        "placeholder": "https://arxiv.org/abs/1706.03762",
+        "style": "Blog style",
+        "voice": "Voice profile",
+        "rate": "Speech rate"
+      },
+      "styles": {
+        "technical": "Technical deep dive",
+        "application": "Application brief",
+        "tutorial": "Tutorial walkthrough"
+      },
+      "voices": {
+        "calm": "Calm narrator",
+        "teacher": "Energetic teacher",
+        "brief": "Executive brief"
+      },
+      "actions": {
+        "sample": "Sample",
+        "generating": "Generating preview",
+        "generate": "Generate paper blog",
+        "copy": "Copy blog",
+        "copied": "Copied",
+        "play": "Play narration",
+        "stop": "Stop"
+      },
+      "workflow": {
+        "title": "Conversion pipeline",
+        "empty": "Ready"
+      },
+      "empty": {
+        "paper": "Paper metadata",
+        "summary": "Key insights",
+        "blog": "Blog draft",
+        "voice": "Narration script",
+        "pending": "Generating the first conversion preview.",
+        "ready": "A complete conversion will appear here."
+      },
+      "summary": {
+        "title": "AI paper summary",
+        "contributions": "Core contributions",
+        "methods": "Methodology",
+        "applications": "Application ideas"
+      },
+      "voice": {
+        "duration": "Estimated duration: {seconds}s"
+      },
+      "business": {
+        "title": "MVP monetization rules"
+      },
+      "errors": {
+        "preview": "Paper conversion preview failed."
+      }
     }
   },
   "account": {
